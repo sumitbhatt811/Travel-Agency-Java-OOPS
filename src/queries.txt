@@ -1,0 +1,13 @@
+INSERT INTO travel_package values('BOM-GOA',20,0,'Goa,FortGoa,BeachGoa,MarketGoa');
+INSERT INTO travel_package values('AMD-DUB',20,0,'Dubai,Burj Khalifa,MarketDubai');
+INSERT INTO travel_package values('BOM-SNG',20,0,'Singapore,UniversalStudios,MuseumSingapore,MarketSingapore');
+
+INSERT INTO activity values('Surfing','Surf around the sea',500,5,0,'BeachGoa');
+INSERT INTO activity values('Scuba Diving','Under the sea',1500,5,0,'BeachGoa');
+INSERT INTO activity values('Boat','fast boat',2500,10,0,'BeachGoa');
+INSERT INTO activity values('Museum','Roam around',500,50,0,'Goa');
+INSERT INTO activity values('Water Show','Watch',1000,50,0,'MarketGoa');
+
+INSERT INTO passenger values('Jay',1,'Gold',2000,'BOM-GOA','');
+INSERT INTO passenger values('Jack',2,'Standard',0,'BOM-GOA','');
+INSERT INTO passenger values('Henry',3,'Premium',0,'BOM-GOA','');
